@@ -1,1 +1,5 @@
-
+print("Este programa faz exponenciações (ou seja, dizes dois números, no qual o primeiro será a base e o segundo será o expoente e o programa vai realizar a operação)")
+base = float(input("Qual será a base? (não tem que ser inteira)"))
+expoente = float(input("Qual será o expoente? (não tem que ser inteiro)"))
+resultado = base**expoente
+print("O resultado é:",resultado)
